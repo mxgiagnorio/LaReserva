@@ -1,7 +1,7 @@
 ![ReservaLogo](client/src/images/LaReservaLogo.png)
 # Proyecto Final - La reserva [ES]
 <h1>Deploy: 
-<a>https://lareserva-frontend.herokuapp.com</a>
+<a>https://henry-lareserva-front.vercel.app/</a>
 </h1>
 
 <h1>Video: 
