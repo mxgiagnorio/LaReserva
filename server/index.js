@@ -2,6 +2,7 @@ const server = require("./src/app.js");
 const express = require("express");
 const { conn } = require("./src/db.js");
 const morgan = require("morgan");
+const { PORT } = process.env;
 
 const { preload_players } = require("./src/utils/utilsPlayers.js");
 const { preload_teams } = require("./src/utils/utilsTeams.js");
@@ -14,11 +15,11 @@ app.use(morgan("dev"));
 
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => {
-  server.listen(3001, () => {
+  server.listen(PORT, () => {
     preload_admin();
     preload_tournaments();
     preload_players();
     preload_teams();
-    console.log("%s listening at 3001"); // eslint-disable-line no-console
+    console.log(`Server raised at ${PORT}`); // eslint-disable-line no-console
   });
 });
