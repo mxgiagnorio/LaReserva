@@ -7,7 +7,6 @@ import { useSelector, useDispatch } from "react-redux";
 import { setActualUser } from "../redux/actions/index";
 import { useHistory } from "react-router-dom";
 import axios from "axios";
-axios.defaults.baseURL = "https://la-reserva.vercel.app/";
 
 export default function Profile() {
   const { loginWithRedirect, logout, user, isLoading } = useAuth0();
@@ -42,7 +41,7 @@ export default function Profile() {
       //Si la pagina cargo con el usuario ya logeado y todavia no tengo su info en la redux store
       //Pido la info del usuario a mi db
       axios
-        .get(`/users/${user.email}`)
+        .get(`https://lareserva-production.up.railway.app/${user.email}`)
         .then((info) => {
           dispatch(
             setActualUser(info.data.name, info.data.ban, info.data.admin)
@@ -50,7 +49,7 @@ export default function Profile() {
         })
         .catch((err) => {
           axios
-            .post("/users/post", {
+            .post("https://lareserva-production.up.railway.app/users/post", {
               email: user.email,
               name: user.name,
               img: user.picture,
@@ -81,7 +80,7 @@ export default function Profile() {
           onClick={() =>
             loginWithRedirect({
               //Si te logeas te redirige a /login
-              // redirectUri: 'http://localhost:3000/login'
+              //   redirectUri: "http://localhost:3000/login",
               redirectUri: "https://la-reserva.vercel.app/login",
             })
           }
@@ -134,7 +133,12 @@ export default function Profile() {
 
               <button
                 className="hover:text-green-700 duration-300"
-                // onClick={() => logout({returnTo: 'http://localhost:3000/home'})}>Desconectarse</button>
+                //     onClick={() =>
+                //       logout({ returnTo: "http://localhost:3000/home" })
+                //     }
+                //   >
+                //     Desconectarse
+                //   </button>
                 onClick={() =>
                   logout({
                     returnTo: "https://la-reserva.vercel.app/home",
