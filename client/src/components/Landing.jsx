@@ -8,11 +8,11 @@ import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useAuth0 } from "@auth0/auth0-react";
-import popUpStyles from '../styles/PopUpStyles.module.css';
+import popUpStyles from "../styles/PopUpStyles.module.css";
 
 export default function Landing() {
   const [popUpError, setPopUpError] = useState({});
-  const {loginWithRedirect, user, isLoading} = useAuth0();
+  const { loginWithRedirect, user, isLoading } = useAuth0();
 
   function redirectTo(target) {
     if (target === 2) {
@@ -121,42 +121,45 @@ export default function Landing() {
         <Link to="/home">
           <button>Ingresar</button>
         </Link>
-        {!isLoading && !user &&
-        (
+        {!isLoading && !user && (
           <Link to="/">
-            <button onClick={() => loginWithRedirect({
-              redirectUri: 'http://localhost:3000/login'
-            })}>Registrate
+            <button
+              onClick={() =>
+                loginWithRedirect({
+                  redirectUri: "https://la-reserva.vercel.app//login",
+                })
+              }
+            >
+              Registrate
             </button>
-        </Link>
+          </Link>
         )}
-        
       </div>
 
       <div
-					className={
-						popUpError.title
-							? popUpStyles.popUpOverlay
-							: popUpStyles.popUpOverlay_hidden
-					}
-				>
-					<div
-						className={
-							popUpError.title ? popUpStyles.popUp : popUpStyles.popUp_hidden
-						}
-					>
-						<h2>{popUpError.title}</h2>
-						<p>{popUpError.msg}</p>
-						<button
-							onClick={() => setPopUpError({})}
-							className={popUpStyles.okBtn}
-						>
-							Ok
-						</button>
-					</div>
-				</div>
+        className={
+          popUpError.title
+            ? popUpStyles.popUpOverlay
+            : popUpStyles.popUpOverlay_hidden
+        }
+      >
+        <div
+          className={
+            popUpError.title ? popUpStyles.popUp : popUpStyles.popUp_hidden
+          }
+        >
+          <h2>{popUpError.title}</h2>
+          <p>{popUpError.msg}</p>
+          <button
+            onClick={() => setPopUpError({})}
+            className={popUpStyles.okBtn}
+          >
+            Ok
+          </button>
+        </div>
+      </div>
 
-      <div className='w-full flex flex-col items-center md:flex-row md:justify-center '>
+      <div className="w-full flex flex-col items-center md:flex-row md:justify-center ">
         <a href="https://wa.me/5492615110030" target="_blank">
           <div className={styles.iconsSubContainer}>
             <IoLogoWhatsapp
@@ -165,21 +168,22 @@ export default function Landing() {
             />
           </div>
         </a>
-        <a href={'https://www.google.com.ar/maps/place/Estadio+Alberto+J.+Armando/data=!4m7!3m6!1s0x95a334b6925e5473:0x1ca5b2748858b40d!8m2!3d-34.6356109!4d-58.3647563!16zL20vMDNmMDZw!19sChIJc1RekrY0o5URDbRYiHSypRw?authuser=0&hl=es&rclk=1'} 
-        target='_blank'>
-        <div className={styles.iconsSubContainer}>
-          <IoLocation
-            onClick={(e) => redirectTo(1)}
-            className={styles.icons}
-          />
-        </div>
-      </a>
-        <div className={styles.iconsSubContainer}>
-          <CopyToClipboard text="lareserva@gmail.com">
-            <SiGmail
-              onClick={(e) => redirectTo(2)}
+        <a
+          href={
+            "https://www.google.com.ar/maps/place/Estadio+Alberto+J.+Armando/data=!4m7!3m6!1s0x95a334b6925e5473:0x1ca5b2748858b40d!8m2!3d-34.6356109!4d-58.3647563!16zL20vMDNmMDZw!19sChIJc1RekrY0o5URDbRYiHSypRw?authuser=0&hl=es&rclk=1"
+          }
+          target="_blank"
+        >
+          <div className={styles.iconsSubContainer}>
+            <IoLocation
+              onClick={(e) => redirectTo(1)}
               className={styles.icons}
             />
+          </div>
+        </a>
+        <div className={styles.iconsSubContainer}>
+          <CopyToClipboard text="lareserva@gmail.com">
+            <SiGmail onClick={(e) => redirectTo(2)} className={styles.icons} />
           </CopyToClipboard>
         </div>
       </div>

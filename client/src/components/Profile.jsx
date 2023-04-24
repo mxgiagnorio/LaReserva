@@ -80,7 +80,7 @@ export default function Profile() {
           onClick={() =>
             loginWithRedirect({
               //Si te logeas te redirige a /login
-              //   redirectUri: "http://localhost:3000/login",
+
               redirectUri: "https://la-reserva.vercel.app/login",
             })
           }
@@ -133,12 +133,6 @@ export default function Profile() {
 
               <button
                 className="hover:text-green-700 duration-300"
-                //     onClick={() =>
-                //       logout({ returnTo: "http://localhost:3000/home" })
-                //     }
-                //   >
-                //     Desconectarse
-                //   </button>
                 onClick={() =>
                   logout({
                     returnTo: "https://la-reserva.vercel.app/home",

@@ -1,95 +1,104 @@
-import React from 'react';
-import Footer from './Footer';
-import NextTournaments from './NextTournaments';
-import jugador from '../images/jugadorHome.png';
-import { BsCalendarDate } from 'react-icons/bs';
-import { BiCategory } from 'react-icons/bi';
-import { BsFillPersonFill } from 'react-icons/bs';
-import TournamentCards from './TournamentCards';
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getNextTournament } from '../redux/actions';
-import Nav from '../components/Nav';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
-import { useAuth0 } from '@auth0/auth0-react';
+import React from "react";
+import Footer from "./Footer";
+import NextTournaments from "./NextTournaments";
+import jugador from "../images/jugadorHome.png";
+import { BsCalendarDate } from "react-icons/bs";
+import { BiCategory } from "react-icons/bi";
+import { BsFillPersonFill } from "react-icons/bs";
+import TournamentCards from "./TournamentCards";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getNextTournament } from "../redux/actions";
+import Nav from "../components/Nav";
+import { Link } from "react-router-dom";
+import axios from "axios";
+import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Home() {
-	const dispatch = useDispatch();
-	const nextTournaments = useSelector((store) => store.nextTournaments);
-	const queryString = window.location.search
-	const params = new URLSearchParams(queryString)
-	const status = params.get("status")
+  const dispatch = useDispatch();
+  const nextTournaments = useSelector((store) => store.nextTournaments);
+  const queryString = window.location.search;
+  const params = new URLSearchParams(queryString);
+  const status = params.get("status");
 
-	const { user } = useAuth0()
-	
-	const payloadgood = {
-		email: `${user ? user.email : "No Logueado"}`,
-		option: `Pago`
-	}
+  const { user } = useAuth0();
 
-	const payloadbad = {
-		email: `${user ? user.email : "No Logueado"}`,
-		option: `Reject`
-	};
+  const payloadgood = {
+    email: `${user ? user.email : "No Logueado"}`,
+    option: `Pago`,
+  };
+
+  const payloadbad = {
+    email: `${user ? user.email : "No Logueado"}`,
+    option: `Reject`,
+  };
 
   useEffect(() => {
     dispatch(getNextTournament());
   }, []);
 
-	useEffect(()=>{ 
-		if(status === "approved"){
-      let teamInfo = localStorage.getItem('tournamentPlayers');
-      if(teamInfo!==null && teamInfo!=='null') createPlayers(teamInfo);
-		} else if(status === "in_process"){//Si se rechazo el pago
-      localStorage.setItem('tournamentPlayers', null);
-			axios
-			.post('http://localhost:3001/email', payloadbad)
-			.then((data) => {
-				return data;
-			})
-			.catch((err) => console.log(err));
-		}
-    else{
-      localStorage.setItem('tournamentPlayers', null);
+  useEffect(() => {
+    if (status === "approved") {
+      let teamInfo = localStorage.getItem("tournamentPlayers");
+      if (teamInfo !== null && teamInfo !== "null") createPlayers(teamInfo);
+    } else if (status === "in_process") {
+      //Si se rechazo el pago
+      localStorage.setItem("tournamentPlayers", null);
+      axios
+        .post("https://lareserva-production.up.railway.app/email", payloadbad)
+        .then((data) => {
+          return data;
+        })
+        .catch((err) => console.log(err));
+    } else {
+      localStorage.setItem("tournamentPlayers", null);
     }
-	},[])
+  }, []);
 
-  async function createPlayers(teamInfo){
+  async function createPlayers(teamInfo) {
     teamInfo = JSON.parse(teamInfo);
     let bulkPromises = [];
-    let tournamentName = await axios.get(`http://localhost:3001/tournaments/${teamInfo.tournament}`);
+    let tournamentName = await axios.get(
+      `https://lareserva-production.up.railway.app/tournaments/${teamInfo.tournament}`
+    );
     tournamentName = tournamentName.data.name;
 
     teamInfo.playerName.forEach((player, index) => {
-      bulkPromises.push(axios.post('http://localhost:3001/players', {
-        name: teamInfo.playerName[index],
-        surname: teamInfo.playerSurname[index],
-        dni: teamInfo.playerDni[index],
-        tournaments: [tournamentName]
-      }))
-    })
+      bulkPromises.push(
+        axios.post("https://lareserva-production.up.railway.app/players", {
+          name: teamInfo.playerName[index],
+          surname: teamInfo.playerSurname[index],
+          dni: teamInfo.playerDni[index],
+          tournaments: [tournamentName],
+        })
+      );
+    });
 
-    bulkPromises.push(axios.put(`http://localhost:3001/tournaments/quitcupos/${teamInfo.tournament}`))
+    bulkPromises.push(
+      axios.put(
+        `https://lareserva-production.up.railway.app/tournaments/quitcupos/${teamInfo.tournament}`
+      )
+    );
     await Promise.all(bulkPromises);
 
-    await axios.post('http://localhost:3001/teams',{
+    await axios.post("https://lareserva-production.up.railway.app/teams", {
       name: teamInfo.teamName,
-      players: teamInfo.playerDni.map((dni) => {return parseInt(dni)}),
-      image: 'null',
+      players: teamInfo.playerDni.map((dni) => {
+        return parseInt(dni);
+      }),
+      image: "null",
       tournaments: [tournamentName],
-      email: teamInfo.mail
-    })
+      email: teamInfo.mail,
+    });
 
-    localStorage.setItem('tournamentPlayers', null);
+    localStorage.setItem("tournamentPlayers", null);
   }
 
-	return (
-		<div className="w-full min-h-screen flex flex-col justify-between bg-gray-200">
-			<Nav />
-			<div className="flex justify-start flex-col">
-				{/*div principal*/}
-
+  return (
+    <div className="w-full min-h-screen flex flex-col justify-between bg-gray-200">
+      <Nav />
+      <div className="flex justify-start flex-col">
+        {/*div principal*/}
 
         <div className="w-full flex flex-wrap justify-center md:flex-nowrap md:justify-start">
           {/*div superior*/}
@@ -164,12 +173,12 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full flex justify-start pl-9">
-          <div className='bg-white p-3 flex justify-center text-4xl text-green-700 font-bold w-11/12 rounded'>
+          <div className="bg-white p-3 flex justify-center text-4xl text-green-700 font-bold w-11/12 rounded">
             <h2>Torneos en curso</h2>
           </div>
         </div>
         <div>
-          <TournamentCards/>
+          <TournamentCards />
         </div>
       </div>
       <Footer />
