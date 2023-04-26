@@ -6,8 +6,8 @@ import { useAuth0 } from "@auth0/auth0-react";
 const Auth0ProviderWithHistory = ({ children }) => {
   // const domain = process.env.REACT_APP_AUTH0_DOMAIN;
   // const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
-  const clientId =xq5SRNJEGjpib05vcCH6efuQFzuNxTkZ;
-  const domain =dev-i5wmro7l1pvr4q2b.us.auth0.com;
+  const domain =  process.env.REACT_APP_AUTH0_DOMAIN
+  const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID
   const history = useHistory();
 
   const onRedirectCallback = (appState) => {
