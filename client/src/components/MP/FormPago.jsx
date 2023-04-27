@@ -18,7 +18,7 @@ function FormPago() {
       .catch((err) => console.error(err));
   }, []);
 
-  const productos = [{ title: "Torneo Inscripcion", price: 1 }];
+  const productos = [{ title: "Torneo Inscripcion", price: 1000 }];
   return (
     <div className="">
       {!datos ? <Loading /> : <BotonPago productos={productos} data={datos} />}
