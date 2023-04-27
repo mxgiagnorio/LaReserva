@@ -126,7 +126,7 @@ export default function Landing() {
             <button
               onClick={() =>
                 loginWithRedirect({
-                  redirectUri: "https://la-reserva.vercel.app//login",
+                  redirectUri: "https://la-reserva.vercel.app/login",
                 })
               }
             >
