@@ -19,7 +19,7 @@ router.get("/", (req, res) => {
     items: [
       {
         title: "Inscripcion Torneo",
-        unit_price: 1,
+        unit_price: 1000,
         quantity: 1,
       },
     ],
