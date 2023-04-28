@@ -6,7 +6,8 @@ const { find_by_email } = require("../utils/users.js");
 const router = Router();
 const ruta_deploy =
   "https://lareserva-production.up.railway.app/mercadopago/pagos";
-const ruta_local = "https://lareserva-production.up.railway.app/home";
+// const ruta_local = "https://lareserva-production.up.railway.app/home";
+const ruta_local="https://la-reserva.vercel.app/home"
 const { ACCESS_TOKEN } = process.env;
 
 mercadopago.configure({
