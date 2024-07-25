@@ -1,282 +1,272 @@
 [
   {
     "id": 1,
-    "name": "Rusticom Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Sub20",
-    "genre": "Masculino",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 2,
-    "name": "La Gran 7 Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Sub20",
-    "genre": "Mixto",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 3,
-    "name": "Henry Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Libre",
-    "genre": "Mixto",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 4,
-    "name": "Magios Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Libre",
-    "genre": "Masculino",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 5,
-    "name": "Pibardas Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Libre",
-    "genre": "Femenino",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 6,
-    "name": "Oxidados Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Senior",
-    "genre": "Masculino",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 7,
-    "name": "Matadoras Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Sub20",
-    "genre": "Femenino",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 8,
-    "name": "Oxidadas Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Senior",
-    "genre": "Femenino",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 9,
-    "name": "Oxidades Apertura 22",
-    "dateInit": "2022-01-01",
-    "dateFinish": "2022-06-01",
-    "category": "Senior",
-    "genre": "Mixto",
-    "state": "Finalizado",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 10,
-    "name": "Rusticom Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Sub20",
-    "genre": "Masculino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 11,
-    "name": "La Gran 7 Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Sub20",
-    "genre": "Mixto",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 12,
-    "name": "Henry Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Libre",
-    "genre": "Mixto",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 13,
-    "name": "Magios Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Libre",
-    "genre": "Masculino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 14,
-    "name": "Pibardas Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Libre",
-    "genre": "Femenino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 15,
-    "name": "Oxidados Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Senior",
-    "genre": "Masculino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 16,
-    "name": "Matadoras Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Sub20",
-    "genre": "Femenino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 17,
-    "name": "Oxidadas Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Senior",
-    "genre": "Femenino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 18,
-    "name": "Oxidades Clausura 22",
-    "dateInit": "2023-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Senior",
-    "genre": "Mixto",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 19,
-    "name": "Rusticom Apertura 23",
+    "name": "Torneo Sub20 Masculino Apertura 2024",
     "dateInit": "2024-01-01",
     "dateFinish": "2024-06-01",
     "category": "Sub20",
     "genre": "Masculino",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 2,
+    "name": "Torneo Sub20 Mixto Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Sub20",
+    "genre": "Mixto",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 3,
+    "name": "Torneo Libre Mixto Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Libre",
+    "genre": "Mixto",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 4,
+    "name": "Torneo Libre Masculino Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Libre",
+    "genre": "Masculino",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 5,
+    "name": "Torneo Libre Femenino Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Libre",
+    "genre": "Femenino",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 6,
+    "name": "Torneo Senior Masculino Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Senior",
+    "genre": "Masculino",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 7,
+    "name": "Torneo Sub20 Femenino Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Sub20",
+    "genre": "Femenino",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 8,
+    "name": "Torneo Senior Femenino Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Senior",
+    "genre": "Femenino",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 9,
+    "name": "Torneo Senior Mixto Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Senior",
+    "genre": "Mixto",
+    "state": "Finalizado",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 10,
+    "name": "Torneo Sub20 Masculino Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Sub20",
+    "genre": "Masculino",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 11,
+    "name": "Torneo Sub20 Mixto Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Sub20",
+    "genre": "Mixto",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 12,
+    "name": "Torneo Libre Mixto Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Libre",
+    "genre": "Mixto",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 13,
+    "name": "Torneo Libre Masculino Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Libre",
+    "genre": "Masculino",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 14,
+    "name": "Torneo Libre Femenino Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Libre",
+    "genre": "Femenino",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 15,
+    "name": "Torneo Senior Masculino Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Senior",
+    "genre": "Masculino",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 16,
+    "name": "Torneo Sub20 Femenino Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Sub20",
+    "genre": "Femenino",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 17,
+    "name": "Torneo Senior Femenino Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Senior",
+    "genre": "Femenino",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 18,
+    "name": "Torneo Senior Mixto Clausura 2024",
+    "dateInit": "2024-06-01",
+    "dateFinish": "2024-12-01",
+    "category": "Senior",
+    "genre": "Mixto",
+    "state": "En curso",
+    "description": "El ganador recibirá un premio de $100,000."
+  },
+  {
+    "id": 19,
+    "name": "Torneo Sub20 Masculino Apertura 2024",
+    "dateInit": "2024-01-01",
+    "dateFinish": "2024-06-01",
+    "category": "Sub20",
+    "genre": "Masculino",
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 20,
-    "name": "La Gran 7 Apertura 23",
+    "name": "Torneo Sub20 Mixto Apertura 2024",
     "dateInit": "2024-01-05",
     "dateFinish": "2024-06-01",
     "category": "Sub20",
     "genre": "Mixto",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 21,
-    "name": "Henry Apertura 23",
+    "name": "Torneo Libre Mixto Apertura 2024",
     "dateInit": "2024-01-10",
     "dateFinish": "2024-06-01",
     "category": "Libre",
     "genre": "Mixto",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 22,
-    "name": "Magios Apertura 23",
+    "name": "Torneo Libre Masculino Apertura 2024",
     "dateInit": "2024-01-15",
     "dateFinish": "2024-06-01",
     "category": "Libre",
     "genre": "Masculino",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 23,
-    "name": "Pibardas Apertura 23",
+    "name": "Torneo Libre Femenino Apertura 2024",
     "dateInit": "2024-01-20",
     "dateFinish": "2024-06-01",
     "category": "Libre",
     "genre": "Femenino",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 24,
-    "name": "Oxidados Apertura 23",
+    "name": "Torneo Senior Masculino Apertura 2024",
     "dateInit": "2024-01-25",
     "dateFinish": "2024-06-01",
     "category": "Senior",
     "genre": "Masculino",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 25,
-    "name": "Matadoras Apertura 23",
-    "dateInit": "2024-02-01",
+    "name": "Torneo Sub20 Femenino Apertura 2024",
+    "dateInit": "2024-01-30",
     "dateFinish": "2024-06-01",
     "category": "Sub20",
     "genre": "Femenino",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 26,
-    "name": "Oxidadas Apertura 23",
-    "dateInit": "2024-02-05",
+    "name": "Torneo Senior Femenino Apertura 2024",
+    "dateInit": "2024-02-01",
     "dateFinish": "2024-06-01",
     "category": "Senior",
     "genre": "Femenino",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   },
   {
     "id": 27,
-    "name": "Oxidades Apertura 23",
-    "dateInit": "2024-02-10",
+    "name": "Torneo Senior Mixto Apertura 2024",
+    "dateInit": "2024-02-05",
     "dateFinish": "2024-06-01",
     "category": "Senior",
     "genre": "Mixto",
-    "state": "Proximo",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
-  },
-  {
-    "id": 28,
-    "name": "Copa Libertadores",
-    "dateInit": "2024-06-01",
-    "dateFinish": "2024-01-01",
-    "category": "Libre",
-    "genre": "Masculino",
-    "state": "En curso",
-    "description": "Ganar no es lo mas importante, es lo unico. Ser segundo no vale. El ganador se  llevara un premio de $30.000 y el perdedor se ira a casa llevandose unicamente la verguenza."
+    "state": "Próximo",
+    "description": "El ganador recibirá un premio de $100,000."
   }
 ]
