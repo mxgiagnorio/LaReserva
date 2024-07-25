@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Torneo Sub20 Masculino Apertura 2022",
+    "name": "Sub20 Masculino Apertura 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Sub20",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "name": "Torneo Sub20 Mixto Apertura 2022",
+    "name": "Sub20 Mixto Apertura 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Sub20",
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "name": "Torneo Libre Mixto Apertura 2022",
+    "name": "Mixto Apertura 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Libre",
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "name": "Torneo Libre Masculino Apertura 2022",
+    "name": "Masculino Apertura 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Libre",
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "name": "Torneo Libre Femenino Apertura 2022",
+    "name": "Femenino Apertura 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Libre",
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "name": "Torneo Senior Masculino Apertura 2022",
+    "name": "Senior Masculino 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Senior",
@@ -61,7 +61,7 @@
   },
   {
     "id": 7,
-    "name": "Torneo Sub20 Femenino Apertura 2022",
+    "name": "Sub20 Femenino 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Sub20",
@@ -71,7 +71,7 @@
   },
   {
     "id": 8,
-    "name": "Torneo Senior Femenino Apertura 2022",
+    "name": "Senior Femenino 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Senior",
@@ -81,7 +81,7 @@
   },
   {
     "id": 9,
-    "name": "Torneo Senior Mixto Apertura 2022",
+    "name": "Senior Mixto 2022",
     "dateInit": "2022-01-01",
     "dateFinish": "2022-06-01",
     "category": "Senior",
@@ -91,7 +91,7 @@
   },
   {
     "id": 10,
-    "name": "Torneo Sub20 Masculino Clausura 2022",
+    "name": "Sub20 Masculino 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Sub20",
@@ -101,7 +101,7 @@
   },
   {
     "id": 11,
-    "name": "Torneo Sub20 Mixto Clausura 2022",
+    "name": "Sub20 Mixto 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Sub20",
@@ -111,7 +111,7 @@
   },
   {
     "id": 12,
-    "name": "Torneo Libre Mixto Clausura 2022",
+    "name": "Libre Mixto 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Libre",
@@ -121,7 +121,7 @@
   },
   {
     "id": 13,
-    "name": "Torneo Libre Masculino Clausura 2022",
+    "name": "Libre Masculino 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Libre",
@@ -131,7 +131,7 @@
   },
   {
     "id": 14,
-    "name": "Torneo Libre Femenino Clausura 2022",
+    "name": "Libre Femenino 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Libre",
@@ -141,7 +141,7 @@
   },
   {
     "id": 15,
-    "name": "Torneo Senior Masculino Clausura 2022",
+    "name": "Senior Masculino 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Senior",
@@ -151,7 +151,7 @@
   },
   {
     "id": 16,
-    "name": "Torneo Sub20 Femenino Clausura 2022",
+    "name": "Sub20 Femenino 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Sub20",
@@ -161,7 +161,7 @@
   },
   {
     "id": 17,
-    "name": "Torneo Senior Femenino Clausura 2022",
+    "name": "Senior Femenino 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Senior",
@@ -171,7 +171,7 @@
   },
   {
     "id": 18,
-    "name": "Torneo Senior Mixto Clausura 2022",
+    "name": "Senior Mixto 2022",
     "dateInit": "2023-06-01",
     "dateFinish": "2024-01-01",
     "category": "Senior",
@@ -181,7 +181,7 @@
   },
   {
     "id": 19,
-    "name": "Torneo Sub20 Masculino Apertura 2023",
+    "name": "Sub20 Masculino 2023",
     "dateInit": "2024-01-01",
     "dateFinish": "2024-06-01",
     "category": "Sub20",
@@ -191,7 +191,7 @@
   },
   {
     "id": 20,
-    "name": "Torneo Sub20 Mixto Apertura 2023",
+    "name": "Sub20 Mixto 2023",
     "dateInit": "2024-01-05",
     "dateFinish": "2024-06-01",
     "category": "Sub20",
@@ -201,7 +201,7 @@
   },
   {
     "id": 21,
-    "name": "Torneo Libre Mixto Apertura 2023",
+    "name": "Libre Mixto 2023",
     "dateInit": "2024-01-10",
     "dateFinish": "2024-06-01",
     "category": "Libre",
@@ -211,7 +211,7 @@
   },
   {
     "id": 22,
-    "name": "Torneo Libre Masculino Apertura 2023",
+    "name": "Libre Masculino 2023",
     "dateInit": "2024-01-15",
     "dateFinish": "2024-06-01",
     "category": "Libre",
@@ -221,7 +221,7 @@
   },
   {
     "id": 23,
-    "name": "Torneo Libre Femenino Apertura 2023",
+    "name": "Libre Femenino 2023",
     "dateInit": "2024-01-20",
     "dateFinish": "2024-06-01",
     "category": "Libre",
@@ -231,7 +231,7 @@
   },
   {
     "id": 24,
-    "name": "Torneo Senior Masculino Apertura 2023",
+    "name": "Senior Masculino 2023",
     "dateInit": "2024-01-25",
     "dateFinish": "2024-06-01",
     "category": "Senior",
@@ -241,7 +241,7 @@
   },
   {
     "id": 25,
-    "name": "Torneo Sub20 Femenino Apertura 2023",
+    "name": "Sub20 Femenino 2023",
     "dateInit": "2024-01-30",
     "dateFinish": "2024-06-01",
     "category": "Sub20",
@@ -251,7 +251,7 @@
   },
   {
     "id": 26,
-    "name": "Torneo Senior Femenino Apertura 2023",
+    "name": "Senior Femenino 2023",
     "dateInit": "2024-02-01",
     "dateFinish": "2024-06-01",
     "category": "Senior",
@@ -261,7 +261,7 @@
   },
   {
     "id": 27,
-    "name": "Torneo Senior Mixto Apertura 2023",
+    "name": "Senior Mixto 2023",
     "dateInit": "2024-02-05",
     "dateFinish": "2024-06-01",
     "category": "Senior",
